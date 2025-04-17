@@ -11,7 +11,67 @@ h2 {
     padding: 12px 0;
 }
 .box {
-    display: flex ; 
+    display: flex inline-block; 
     flex-direction: column ;
-    gap: 5px;
+    gap: 10px;
+}
+.uber-button {
+    background-color: black;
+    color: white;
+    height: 60px;
+    width: 140px;
+    font-size: medium;
+    cursor: pointer;
+}
+.amazon-button {
+    background-color: rgb(255, 216, 20);
+    color: black;
+    height: 50px;
+    width: 230px;
+    font-size: large;
+    border-radius: 35px;
+    border: none;
+    cursor: pointer;
+}
+.github-button {
+    background-color: rgb(46, 164, 79);
+    color: white;
+    height: 60px;
+    width: 160px;
+    font-size: x-large;
+    font: bold;
+    border: none;
+    border-radius: 5px;
+}
+.bootstarp-button {
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    font-weight: 800;
+    border-radius: 5px;
+    cursor: pointer;
+}   
+.linkedin-button {
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 50px;
+    width: 290px;
+    font-size: large;
+    font-weight: 800;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.linkdin-save {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    height: 60px;
+    width: 100px;
+    font-weight: 800;
+    font-size: large;
+    border-color: rgb(10, 102, 194);
+    border-radius: 30px;
 }
