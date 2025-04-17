@@ -19,7 +19,7 @@ h2 {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 12px;  
 }
 .uber-button {
     background-color: black;
@@ -80,4 +80,34 @@ h2 {
     font-size: large;
     border-color: rgb(10, 102, 194);
     border-radius: 30px;
+}
+.amazon {
+    color: rgb(0, 113, 133);
+}
+.price {
+    color: rgb(0, 118, 0);
+    font-size: larger;
+    font-weight: 800;
+}
+.title {
+    font-size: xx-large;
+    font-weight: 600;
+}
+.add-to-cart-btn {
+    background-color: rgb(255, 216, 20);
+    height: 55px;
+    width: 190px;
+    border: none;
+    border-radius: 30px;
+    font-size: large;
+    font-weight: 300;
+}
+.buy-now-btn {
+    background-color: rgb(255, 164, 28);
+    height: 55px;
+    width: 100px;
+    border: none;
+    border-radius: 28px;
+    font-size: large;
+    font-weight: 300;
 }
