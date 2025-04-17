@@ -11,9 +11,15 @@ h2 {
     padding: 12px 0;
 }
 .box {
-    display: flex inline-block; 
+    display: flex ; 
     flex-direction: column ;
     gap: 10px;
+}
+.btns {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 .uber-button {
     background-color: black;
