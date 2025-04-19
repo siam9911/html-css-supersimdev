@@ -29,6 +29,9 @@ h2 {
     font-size: medium;
     cursor: pointer;
 }
+.uber-button:hover {
+    opacity: 0.7;
+}
 .amazon-button {
     background-color: rgb(255, 216, 20);
     color: black;
@@ -39,6 +42,10 @@ h2 {
     border: none;
     cursor: pointer;
 }
+.amazon-button:hover {
+    background-color: rgb(204, 138, 15);
+    transition: ;
+}
 .github-button {
     background-color: rgb(46, 164, 79);
     color: white;
@@ -48,6 +55,10 @@ h2 {
     font: bold;
     border: none;
     border-radius: 5px;
+    transition: box-shadow 0.15s;
+}
+.github-button:hover {
+    box-shadow: 9px 9px 7px rgba(46, 164, 79, 0.5);
 }
 .bootstarp-button {
     background-color: white;
@@ -59,7 +70,12 @@ h2 {
     font-weight: 800;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.2s,color 0.2s;
 }   
+.bootstarp-button:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+} 
 .linkedin-button {
     background-color: rgb(10, 102, 194);
     color: white;
@@ -70,6 +86,10 @@ h2 {
     border: none;
     border-radius: 25px;
     cursor: pointer;
+    transition: background-color 0.3s;
+}
+.linkedin-button:hover {
+    background-color: rgb(18, 79, 133);
 }
 .linkdin-save {
     background-color: white;
@@ -80,6 +100,11 @@ h2 {
     font-size: large;
     border-color: rgb(10, 102, 194);
     border-radius: 30px;
+}
+.linkdin-save:hover {
+    background-color: rgb(133, 186, 239);
+    color: rgb(10, 102, 194);
+    border-width: 3px;
 }
 .amazon {
     color: rgb(0, 113, 133);
