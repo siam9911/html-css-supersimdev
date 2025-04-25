@@ -24,8 +24,7 @@ h2 {
 .uber-button {
     background-color: black;
     color: white;
-    height: 60px;
-    width: 140px;
+    padding: 10px 10px 10px 10px;
     font-size: medium;
     cursor: pointer;
 }
@@ -126,6 +125,14 @@ h2 {
     border-radius: 30px;
     font-size: large;
     font-weight: 300;
+    transition: background-color 0.15s,opacity 0.15s;
+
+}
+.add-to-cart-btn:hover {
+    background-color: rgb(197, 168, 24);
+}
+.add-to-cart-btn:active {
+    opacity: 0.5;
 }
 .buy-now-btn {
     background-color: rgb(255, 164, 28);
@@ -135,4 +142,11 @@ h2 {
     border-radius: 28px;
     font-size: large;
     font-weight: 300;
+    transition: background-color 0.15s,opacity 0.15s;
+}
+.buy-now-btn:hover {
+    background-color: brown;
+}
+.buy-now-btn:active {
+    opacity: 0.5;
 }
